@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/fornInfo"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_alignBottom="@id/fornData"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:background="@drawable/draw"/>
+
+    <TextView
+        android:id="@+id/fornNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/fornInfo"
+        android:layout_toEndOf="@+id/fornInfo"
+        android:text="Fornecedor"
+        android:textSize="22sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:textColor="#1E1E24"/>
+
+    <TextView
+        android:id="@+id/fornTel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fornNome"
+        android:layout_alignLeft="@id/fornNome"
+        android:layout_alignStart="@id/fornNome"
+        android:text="Telefone"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/fornData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="Data última compra"
+        android:textSize="18sp"
+        android:layout_toRightOf="@id/fornTel"
+        android:layout_alignBottom="@id/fornTel"
+        android:layout_toEndOf="@id/fornTel"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:maxLength="35"/>
+
+</RelativeLayout>

@@ -1,0 +1,472 @@
+<resources>
+    <string name="app_name">Construindo Seu Negócio</string>
+    <string name="title_login">Construindo seu Negócio Login</string>
+    <string name="login_google">Login com Google</string>
+    <string name="logout">Sair</string>
+    <string name="welcome_msg">Empreendedor.  \n Seja bem vindo ao nosso aplicativo!</string>
+    <string name="developers">Desenvolvido por Mag™</string>
+
+    <string name="select_color">Selecione uma cor</string>
+    <string name="select_font">Selecione uma fonte</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancelar</string>
+
+    <string name="title_activity_main2">Página Financeira</string>
+    <string name="tab_text_1">IMC</string>
+    <string name="tab_text_2">DRE</string>
+    <string name="tab_text_3">Análises</string>
+    <string name="title_IMCtab">Margem de Contribuição</string>
+    <string name="desc_graphFina">Gráficos financeiros</string>
+    <string name="title_Fina">Registre:</string>
+    <string name="bt_entraFina">Entrada</string>
+    <string name="bt_saidaFina">Saída</string>
+    <string name="bt_fluxoFina">Fluxo de Caixa</string>
+    <string name="bt_caixaFina">Custos e Despesas</string>
+    <string name="bt_indicFina">Indíce Financeiro</string>
+    <string name="content_IMCtab">Será que você está lucrando? Este é o lucro bruto que sobra após o pagamento das dívidas de venda do seu negócio!
+    </string>
+    <string name="title_DREtab">Demonstração do Resultado dos Exercícios (DRE)</string>
+    <string name="content_DREtab">É o lucro líquido após o pagamento de todas as suas despesas! (O acompanhamento de um contador é essencial para o cálculo exato, procure um profissional)
+    </string>
+    <string name="title_Anatab">Análise dos Resultados e Demonstrações Financeiras</string>
+    <string name="content_MEIjury">Microempreendedor individual (MEI), no Brasil, é o empresário individual a que se refere o artigo 966 do
+        Código Civil Brasileiro. Atua geralmente como empresa virtual, através de formas que independem de estabelecimento fixo, como
+        Internet, porta-a-porta, máquinas automáticas, correios, telemensagens e outros meios virtuais previstos em lei. O MEI trabalha
+        como pequeno empresário, desde que fature no máximo 81 mil reais por ano, não tenha participação em outra empresa como sócio,
+        administrador ou titular e tenha no máximo um empregado contratado que receba o salário mínimo ou o piso da categoria.
+    </string>
+    <string name="content_SWOTmark"><b>Ambiente interno:</b> Determina as forças e fraquezas.\n\n
+        <b>Forças:</b>  São as vantagens internas, o que faz a empresa se destacar sobre os concorrentes.\n
+        <b>Fraquezas:</b> São as desvantagens internas que atrapalham o crescimento da sua empresa em relação a concorrência.\n
+    </string>
+    <string name="content_SWOTmark2"><b>Ambiente externo:</b>  Possibilita a definição das oportunidades e ameaças.\n\n
+        <b>Oportunidades:</b> São os fatores externos que cria um cenário favorável para o negócio e tem o potencial de fazer crescer a vantagem competitiva da empresa.\n
+        <b>Ameaças:</b> É o oposto das oportunidades. São os aspectos negativos externos e com o potencial de abalar a vantagem competitiva da empresa.\n\n
+        <b>EXEMPLO DE ANALISE SWOT:</b>
+    </string>
+    <string name="content_SWOTmark3">\n
+        Criando sua Analise Swot (PASSO A PASSO):\n\n
+        1.	Defina suas forças.\n
+        2.	Determine suas fraquezas.\n
+        3.	Liste as oportunidades.\n
+        4.	Enumere as ameaças.\n
+        5.	Coloque os dados nos locais da planilha conforme a figura.\n
+        6.	Faça as correlações entre os fatores da matriz e determine:\n
+        \t•	Forças podem potencializar quais oportunidades.\n
+        \t•	Forças podem combater quais ameaças.\n
+        \t•	Fraquezas podem prejudicar quais oportunidades.\n
+        \t• Fraquezas podem potencializar quais ameaças.\n
+    </string>
+    <string name="huma_procuracao_text"><![CDATA[Jéssica de Lima, brasileira, solteira, técnica administrativa, residente na rua canvas bigodes, São Paulo, São Paulo, portadora do RG n° 8189-10012, CPF n° 000-9552 pelo presente instrumento constitui e nomeia seu bastante procurador Alice Glória Nascimento de Sousa, brasileira, solteira, administradora, residente em São Paulo, São Paulo, portadora do RG n° 1111-11111 CPF n° 000-2222 representa-la junto á empresa Cosméticos & Cia com a finalidade especifica de vender encomendar produtos de beleza, podendo, para tanto, assinar recibo de produtos de beleza, realizando todos os atos a esse fim, dando tudo por firme e valioso, a bem deste mandato.]]></string>
+    <string name="huma_oficio_text"><![CDATA[Ofício é uma carta formal em que se informa sobre assuntos oficiais para os órgãos da administração pública pode ser destinado também para órgãos particulares. Exemplo: \nOfício \nSr. Carlos Eduardo Fonseca \nAdministrador \nCosméticos & Cia \nAssunto: Planejamento estratégico de logística \n\nPrezado sr. Carlos Eduardo Fonseca, administrador \nEu, Clarice Lispector, brasileira, solteira, técnica administrativa, inscrito no CPF n° 808-080-808-0, residente e domiciliado a São Paulo, sirvo-me do presente para solicitar uma reavaliação e planejamento estratégico da logística da empresa. \nAgradeço a atenção \nSão Paulo, 15 de julho de 2019]]></string>
+    <string name="huma_ata_text"><![CDATA[Ata de Reunião: para evitar futuras dúvidas sobre a reunião com a finalidade de garantir e
+        certificar oficialmente tudo que foi relato registrando no livro Ata. Há duas maneiras de fazer a Ata de reunião manuscrito no
+        livro ata e digitalizado em formato em editor de texto que impossibilita de alterações no documento como o PDF. \nComo fazer: o que
+        não pode ter na ata\n• Não pode ter parágrafos\n• Sem abreviaturas\n• Sem rasuras ou emendas\nO que deve ter na ata:\n
+        • Data, local, horário de início e fim da reunião\n    • Nome das pessoas presentes e seus cargos\n    • Discussão\n
+        • Decisões e o desfecho da reunião]]>
+    </string>
+    <string name="bemEstar_title">O Bem Estar Empresarial</string>
+    <string name="bemEstar_text">O bem-estar empresarial está relacionada ao ambiente de Trabalho como as pessoas se veem neste ambiente e
+        qual é o ambiente que a empresa oferece. O bem-estar empresarial é aquando todos contribuem para que o ambiente de trabalho seja
+        agradável em prol do bem comum, visando atingir o objetivo de suas atividades de trabalho e para o bem-estar de todos os membros
+        da equipe.\n Há alguns fatores que podem influenciar o meio corporativo são elas:\n\n   • O ambiente psicossocial do trabalho
+        incluindo as atitudes, as crenças, ou seja, a convivência do funcionário com os seus colegas de trabalho no meio corporativo, o
+        relacionamento entre o funcionário e o seu supervisor e as atividades agradável e motivadora proposta dentro de sua área de atuação.
+        \n\n   • Os recursos de saúde os quais o trabalhador tem acesso para manter estável a saúde física e emocional.\n\n
+    </string>
+    <string name="layEmpresarial_title">Layout Empresarial</string>
+    <string name="layEmpresarial_text">O layout é o ambiente físico de uma empresa, um ambiente organizado é fundamental para um local
+        agradável que estimulem a criatividade e a interação entre os colaboradores, contribuindo assim, para a produtividade de cada
+        funcionário e para a otimização de seus resultados. Há alguns fatores como:\n\n   • Uma boa iluminação;\n\n   • Ventilação (uma boa
+        estrutura física que permite a circulação do ar);\n\n   • Um ambiente bem equipado\n\n   Estes fatores favorecem para um local
+        confortável e adequado para a realização de suas atividades, com as tecnologias necessárias à execução das tarefas evita que os
+        colaboradores se estressem por conta de problemas operacionais.
+    </string>
+    <string name="CadSuprimento_text"><b>O que é Cadeia de Suprimentos?</b>\n Também conhecida como Supply Chain Management (SCM), a cadeia
+        de suprimentos é o conjunto de atividades que envolvem a produção, armazenamento e transporte de produtos ou serviços. Isso inclui
+        a compra de matérias-primas, controle de estoque e o transporte do produto até o cliente final. Porém, é preciso que todas as
+        atividades sejam muito bem planejadas e otimizadas para que possam gerar resultados positivos. Além disso, o planejamento precisa
+        ser feito integrando todos os setores que influenciam na produção.\n\n<b>O que é Cadeia de Suprimentos?</b>\nCom o controle sobre
+        a cadeia de suprimentos o planejamento, as informações e os processos irão fluir de forma interligada, e assim toda a cadeia de
+        produção será otimizada. A elaboração da cadeia de suprimentos possibilita, além de reduzir custos, aumentar a satisfação do
+        consumidor final, entregando um produto de qualidade, com preço acessível e dentro do prazo.\n\n<b>Planejando a Gestão da Cadeia
+        de Suprimentos</b>\nO primeiro passo é realizar uma análise geral da empresa. Essa análise é fundamental para encontrar os
+        pontos de fragilidade dentro do processo, assim como todos os dados importantes de cada etapa. Além disso, ela deve conter
+        informações sobre os fornecedores, e principalmente sobre os clientes. Sendo assim, a gestão de cadeia de suprimentos será interna e
+        externa, abrangendo todos os pontos que atuam direta e indiretamente na produção. Logo, deve ser feito um estudo para conhecer mais
+        sobre cada parte do processo, assim como uma pesquisa sobre as empresas que são referência nos índices de produção (tempo, qualidade
+        e preço).\n\n<b>Contato com fornecedores  </b>\nA escolha da matéria-prima é parte fundamental no processo de produção. O contato
+        com os fornecedores deve ser recorrente, além de sempre mantê-lo informado sobre mudanças na sua produção. Assim, os prazos e
+        quantidades estarão sempre acompanhando sua produtividade, evitando atrasos ou acúmulo no estoque.\n\n<b>Estoque</b>\nUm dos
+        principais pontos do planejamento é o uso do estoque. O local de armazenagem e o tempo de permanência do produto devem ser levados
+        em consideração na sua elaboração, principalmente se tratando de produtos perecíveis.  O ideal é usar o método Just in Time, para
+        que não haja falta nem excesso de materiais no estoque, gerando ainda mais custo.\n\n<b>Transporte</b>\nAlém de planejar todo o
+        processo de logística dentro da empresa, é preciso tomar cuidado com o que acontece fora dela. É necessária uma equipe de transporte
+        de total confiança, sendo terceirizada ou não, para que os prazos sejam respeitados.\n\n<b>Fatores externos</b>\nO planejamento
+        também deve conter saídas para alguns tipos de imprevistos mais comuns, como fatores econômicos e ambientais. Essas medidas podem
+        ser para cortes de gastos em tempos de crise, sem que afete a qualidade do produto, e ainda contatos de outros fornecedores, caso o
+        atual tenha sido afetado.\n\n<b>Dicas para potencializar seu planejamento</b>\n•	 Prepare sua equipe: Feito o planejamento completo,
+        toda a equipe (de todos os níveis de operação) deve tomar conhecimento das etapas e de como será feito o processo. Apenas com uma
+        equipe preparada e capacitada o planejamento será eficaz.\n
+        • Equilibre os fluxos: É preciso encontrar os gargalos da produção. Os fluxos de cada etapa dentro da produção precisam estar alinhados
+        para que um não atrapalhe o outro.\n
+        • Não se esqueça da qualidade: Mesmo conseguindo uma produção enxuta e interligada, não se pode esquecer da qualidade do produto
+        final.\n
+        • Controle sua produção: O planejamento da cadeia de suprimentos pode ficar ultrapassado depois de certo tempo, por isso é
+        essencial manter o controle da produção. O uso do Seis Sigma é uma maneira eficiente de acompanhar o andamento do processo, e se os
+        resultados ainda são positivos.
+    </string>
+    <string name="logGestao_text">O objetivo da gestão da demanda é determinar qual será a demanda futura, e fornecer essa informação para
+        a tomada de decisões em tempo hábil. Uma boa gestão de demanda é uma atividade que agrega valor, pois ela ajuda a reduzir os
+        prazos.\n\n<b>Por que a gestão de estoques é tão importante?</b>\nAtender às demandas de forma constante: a demanda de bens de
+        consumo não é a mesma o ano inteiro, ela pode aumentar ou diminuir durante períodos específicos.\nContinuidade das operações:
+        a gestão cautelosa dos estoques permitirá a uma empresa executar suas operações sem problemas, com continuidade.\nEconomia nas
+        operações: Um sistema de gerenciamento de estoques bem administrado permite cortar custos.\n\n<b>Quais são os princípios da gestão
+        de estoques?</b>\nPrevisão da demanda:\nEsta é uma habilidade especializada. Uma empresa deve ser capaz de prever demandas de bens
+        e produtos específicos em um momento específico do ano. A empresa deve criar e manter seu sistema de inventário com base nas
+        demandas, reais e previstas.\nOs principais problemas na gestão de estoques decorre de falhas na gestão e previsão da demanda.
+        Um dos mais graves problemas em gestão de estoques é o efeito chicote: uma pequena variação da demanda dos clientes causa um
+        transtorno enorme nos elos superiores da cadeia de suprimentos.\n\nComo influenciar a demanda?\nExistem cinco táticas conhecidas
+        para fazer uma boa gestão da demanda:\n1. promoções e descontos: quando a demanda cai, fazemos promoções para atrair novos clientes;
+        \n2. prazos de entrega: se não temos o produto hoje, garantimos um prazo de entrega para o cliente sair satisfeito;\n
+        3. Produtos substitutos: se o cliente não pode esperar, que ele ao menos possa escolher por um modelo similar;\n
+        4. informação: publicidade e propaganda, divulgando informação para aumentar a demanda;\n
+        5. reservas: quando a demanda é maior que a oferta, uma alternativa é satisfazê-la com base em reservas – como em hotéis
+        e restaurantes, mas também com eletrônicos.\n\nMonitoramento do sistema:\n
+        Um inventário deve ter um mecanismo de monitoramento da quantidade em estoque a todo momento. Deve-se saber com exatidão
+        a quantidade de estoque em qualquer ponto específico no tempo.\n\n
+        Qualidade de armazém:\nO armazém deve ser capaz de manter o estoque em boas condições. Materiais desperdiçados geram perdas
+        de oportunidades e receitas.
+    </string>
+    <string name="logReversa_text"><b>Entenda a importância da logística reversa</b>\nEstudos como este apontam que a logística reversa
+        é uma solução eficiente para os problemas de acúmulo de resíduos no Brasil. Embora ainda tenha muitos desafios a serem superados,
+        para as empresas que geram resíduos, os fluxos reversos não só significam ganhos econômicos, também evitam os passivos ambientais.
+        \nUma das grandes vantagens da logística reversa é que ela possibilita a reciclagem dos materiais, diminuindo os custos com a
+        compra de nova matéria-prima. Além disso, diminui o acúmulo de resíduos e a degradação ambiental, dando vida nova às sobras,
+        que podem ser reinseridas no ciclo produtivo.\n
+        Para a imagem da empresa também é muito benéfico aderir à logística reversa. Sinaliza que é um compromisso da organização fabricar
+        produtos com responsabilidade ambiental. Isso faz com que consumidores dêem preferência a essa empresa.\n\n<b>Como participar da
+        logística reversa?</b>\nPara o sucesso do fluxo reverso deve haver o envolvimento de vários agentes. O governo deve investir em
+        educação ambiental, estimulando a devolução dos resíduos dos produtos. O consumidor deve se empenhar em depositar os resíduos dos
+        produtos que são inutilizáveis. Os fabricantes ou comerciantes devem instalar postos de coleta para a devolução dessas sobras e as
+        empresas precisam recolher esses materiais, dando a eles um destino correto.
+    </string>
+    <string name="strategy_title">Estratégias de Marketing</string>
+    <string name="strategy_text"><b>• Como promover sua empresa</b>\n
+        - Use os três grandes serviços de listagem locais.\n
+        Registrar sua empresa no Google Places permite que ela seja encontrada com mais facilidade nas pesquisas do Google e aparece no
+        Google Maps. Tudo o que você precisa fazer é preencher o formulário e registrar-se e, em seguida, confirma sua empresa por meio de
+        seu processo de confirmação, o que pode ser feito com um telefonema ou correio tradicional.\n\n
+        <b>• Abraçar a mídia social</b> \n
+        -A mídia social não é apenas uma ferramenta para ganhar exposição, ela agora se tornou um investimento de tempo necessário para
+        cada empresa. Você pode vincular anúncios e ofertas em suas paginas (Facebook, Twitter, Whatsapp).\n\n
+        <b>• Inicie um blog</b>\n
+        -Um blog não apenas ajuda sua empresa a divulgar seu nome por meio de seguidores, mas é uma maneira de se conectar mais
+        diretamente com seus consumidores. Mas lembre-se de que uma das principais chaves do blog é manter seu fluxo atualizado com maior
+        freqüência possível.\n\n
+        <b>• Coloque multimídia no YouTube e no Flickr</b>\n
+        -O YouTube oferece uma maneira gratuita de distribuir vídeos promocionais criativos, mas, para ter sucesso, você precisa
+        disponibilizar conteúdo que as pessoas queiram ver e sejam relevantes para sua empresa. Um anúncio simples não funcionará. Um
+        perfil do Flickr também pode ajudar, dando-lhe um lugar para compilar todas as fotos para o seu negócio, e permite que você faça
+        um link para o seu site.\n\n
+        <b>• SEO o site da sua empresa</b>\n
+        -A otimização de mecanismos de pesquisa não pode ser subestimada no mundo do Google Googling constante. Pegue um livro ou vá até
+        um guia on-line sobre SEO e certifique-se de que seu site esteja preparado para o desempenho nos mecanismos de pesquisa.\n\n
+        <b>•	 Comunicados de imprensa</b>\n
+        -Toda vez que sua empresa faz algo interessante, não hesite em dar um comunicado à imprensa – talvez as pessoas percebam isso.
+        Eles são uma poderosa ferramenta de mídia para ajudar a gerar publicidade, e ter distribuição gratuita deles é um bônus. Existem
+        dezenas de sites que você pode usar para seus press releases, como o PRLog e o 24/7 Press Release.\n\n
+        <b>• Participe de uma comunidade on-line relevante e contribua</b>\n
+        -Cada nicho tem comunidades on-line que você pode se envolver. Mas apenas se inscrever para um fórum e postar de vez em quando
+        sobre o seu negócio não é benéfico para ninguém, e provavelmente só vai incomodar as pessoas. Contribuir ativamente e construir um
+        relacionamento com a comunidade, mantendo seu negócio fora dele. Promova passivamente seu negócio colocando um link em sua
+        assinatura ou mencionando-o somente quando o contexto for apropriado.\n\n
+        <b>• Snip.ly</b>\n
+        -Snip.ly é umas das ferramentas mais discreta para divulgações para usa é bem simples, basta colar o link da página em questão na
+        página inicial do Snip.ly. A seguir, escolha a melhor informação da página, para ela ser mostrada pelo serviço na caixa de texto,
+        do lado superior direito da página, poupando seu tempo. Ele conta com uma interface extremamente interessante e fácil de usar,
+        trazendo comodidade e poupando seu tempo para realizar a tarefa e complementar informações das redes, que utilizam limite de
+        caracteres ou opções específicas de atualizações.\n\n
+        <b>• O que é Marketing Digital?</b>\n
+        O Marketing Digital é o marketing realizado em ambiente digital. Ele usa ferramentas como redes sociais, e-mail marketing e sites.
+        A ambiente web permite que as empresas se aproximem mais de seus públicos, e é nesse ponto que precisam saber se comunicar da
+        forma correta. Além de facilitar no momento certo a comunicação entre empresa e consumidor de maneira direta e personalizada,
+        o Marketing Digital é uma excelente ferramenta para fortalecer a marca e conseguintemente realizar melhores vendas.\n
+        No marketing digital está ligado ao Inbound Marketing ele tem como objetivo atrair o cliente por meio de conteúdo relevante. Dessa
+        forma, as empresas procuram entender as necessidades dos consumidores para, em seguida, estabelecerem um canal de comunicação com
+        essas pessoas, com o objetivo de oferecer uma solução para os seus problemas.\n\n
+        <b>• Identidade Visual</b>\n
+        Identidade visual é o conjunto de elementos formais que representa visualmente, e de forma sistematizada, um nome, idéia, produto,
+        empresa, instituição ou serviço. Esse conjunto de elementos costuma ter como base o logotipo, um símbolo visual que se complementa
+        nos códigos de cores, das tipografias, nos grafismos, em personagens, nas personalidades e outros componentes que reforçam o
+        conceito a ser comunicado através dessa imagem como o Slogan ou Tag lines, que cumprem este papel. Resumidamente a Identidade
+        Visual é a imagem ampliada da marca.\n
+        A confecção de um logótipo ou de um símbolo visual capaz de representar a assinatura institucional da empresa deve ser estabelecida
+        através de um documento técnico ao quais os designers nomearam de manual da identidade visual.  Esse documento serve para
+        estabelecer normas e critérios técnicos de reprodução da marca nos mais variados suportes existentes no atual estado da técnica
+        como, por exemplo: suportes gráficos (impressão) e suportes eletrônicos (interfaces).\n
+        Elementos principais da identidade visual:\n
+        - Logotipo;\n
+        - Catálogos e apresentações;\n
+        - Website;\n
+        - Materiais gerais de papelaria, como envelope, cartão e pasta;\n
+        - Uniforme e frota personalizada de veículos;\n
+        - Dentre muitos outros.\n
+        Passos para fazer a identidade visual:\n
+        <b>• Briefing</b>\n
+        Bastante usado no mundo da publicidade e do design, o briefing é a peça-chave de qualquer projeto. Na verdade, ele é até mais do
+        que isso e pode ser o responsável pelo sucesso ou pelo fracasso de qualquer criação. Que fique bem claro: não há como criar uma
+        identidade visual de uma empresa sem um bom briefing!\n
+        Como uma espécie de entrevista, o briefing é um documento usado para levantar pontos importantes para a produção de alguma coisa,
+        seja um site, uma campanha ou, no caso que estamos abordando agora, uma identidade visual. Sem deixar passar nenhuma característica
+        importante para empresa, as respostas obtidas por meio desse documento devem deixar claro a forma como a marca se posiciona, como
+        ela quer se posicionar e ser vista.\n
+        <b>• Faça brainstorming</b>\n
+        Do inglês “tempestade de idéias”, o brainstorm é, assim como o nome sugere, um momento em que são coletadas diversas idéias (das
+        mais sofisticadas até as mais esdrúxulas), de diversas pessoas para solucionar um problema.\n
+        <b>• Defina fonte, cor e estilo</b>\n
+        <b>• Fonte</b>\n
+</string>
+    <string name="strategy_text2">
+        Fontes, compostas por traços e extensões no final das letras, passam uma mensagem de sofisticação e tradicionalismo, por isso,
+        se o seu segmento for mais jovem e moderno, talvez não seja uma boa ideia usar alguma dessas. Por outro lado, as fontes sem serifa
+        demonstram clareza, trazendo um conceito com mais respiro e não combinam muito com modelos de negócios mais sóbrios.\n
+        <b>• Cor</b>\n
+    </string>
+    <string name="strategy_text3">
+        Criar uma boa paleta de cores para a sua identidade visual é um dos trabalhos mais importantes e com maior representatividade
+        comercial para a sua empresa. Capazes de criar sensações e despertar sentimentos, as cores são bastante poderosas e, por isso,
+        devem ser estudadas antes de serem aplicadas. Cada uma delas representa algo diferente dependendo do lugar e até da época do ano.
+        Apesar disso, existe uma base de significados mais simples que pode ser levada em consideração na hora de pensar na melhor cor
+        para a sua marca. Confira.\n
+        • Vermelho: paixão, perigo, energia.\n
+        • Amarelo: luz, calor, otimismo.\n
+        • Laranja: alegria, sucesso, vitalidade.\n
+        • Verde: saúde, liberdade, esperança.\n
+        • Cinza: neutralidade, estabilidade, flexibilidade.\n
+        • Preto: elegância, formalidade, força.\n
+        <b>• Forma</b>\n
+        Assim como as cores, as formas também têm seus significados distintos e que devem ser explorados de acordo com os conceitos daquela
+        marca. E por serem mais do que apenas linhas, é muito importante que elas conversem corretamente com os valores e a visão da sua
+        empresa.\n
+        Saiba de alguns de seus significados:\n
+        • Quadrados: racionalidade, impessoalidade, neutralidade e objetividade.\n
+        • Círculo: absoluto, infinito, ilimitado, atemporal e inteireza\n
+        • Triângulo: crescimento, divindade, harmonia e proporção.\n\n
+        <b>• Conheça a concorrência criativa</b>\n
+    </string>
+    <string name="strategy_text4">
+        Baseado no sistema de crowdsourcing  que, em inglês, quer dizer algo como “conhecimento da multidão” , o modelo de concorrência
+        criativa busca encontrar no meio de vários profissionais aquele que possa entregar a melhor saída para um problema criativo de uma
+        empresa.\n\n
+        <b>• Dicas para uma identidade visual</b>\n
+        -Crie uma identidade visual coerente e flexível\n
+        -Faça mais que um logotipo\n
+        -Se for preciso reformular sua marca\n
+        -A identidade visual não é apenas uma grande ideia\n
+        -Aproprie-se de seu meio ambiente\n
+        -Não deixe de fazer por medo\n
+        -Para inovar você terá que fazer coisas estranhas\n
+        -Concentre-se nas pessoas\n
+        -Criar trunfos não custos\n\n
+        <b>• Estratégia de Vendas</b>\n
+        A estratégia de vendas é um plano criado por uma empresa ou indivíduo especializado com metas de aumentar os lucros sobre as vendas
+        de produtos e serviços. Imagine um soldado indo para uma guerra sem uma estratégia de combate, de modo real, é o mesmo que acontece
+        quando uma empresa não possui estratégia de vendas.\n
+        Pontos certos para ter uma boa estratégia de vendas:\n
+        - Defina seu mercado alvo\n
+        - Defina métodos\n
+        - Analise seu território\n
+        - Crie um senso de emergência\n
+        - Supere objeções\n
+        - Conheça a sua concorrência\n
+        - Analise as tendências de seu mercado\n
+        - Crie metas de vendas\n
+        - Atividades de vendas\n
+        - Faça prospecção\n
+    </string>
+    <string name="os4ps_title">Os 4P`s de Marketing</string>
+    <string name="os4ps_text">Os 4P`s são:\n
+        <b>Produto</b> - é o que a empresa oferta aos consumidores. Pode ser algo físico como um produto ou algo intangível como um serviço
+        ou uma ideia. E um produto certo é aquele que atende às necessidades de seus clientes.\n\n
+        <b>Preço</b> - é a mensuração do valor cobrado pelo produto e/ou serviço.\n
+        O preço deve ser atrativo para o público e gerar o lucro para o negócio. Ele se baseia no custo, lucro, prazo e desconto.\n\n
+        <b>Praça</b> - é onde você coloca a venda aquilo que está ofertando e por onde os clientes chegam até os seus produtos.\n
+        A praça pode ser uma loja física, on-line, canais de distribuição no geral (redes sociais) e ambientes para armazenamento.\n\n
+        <b>Promoção</b> - é a divulgação do seu produto/serviço. É a maneira de fazer com que os clientes saibam da sua existência através
+        dos canais de divulgação.\n
+        Exemplos de 4P`s:
+        <b>a) Água Vendida em Engarrafamentos</b>\n
+        \tProduto: água mineral de fácil acesso.\n
+        \tPreço: entre R$2,00 e R$3,00 (dependendo da concorrência entre os ambulantes).\n
+        \tPraça: os maiores engarrafamentos e filas para estabelecimentos.\n
+        \tPromoção: ignora-se a marca da água. Promoção feita pelo próprio ambulante gritando ou segurando cartazes.\n\n
+        <b>b) Água Perrier</b>\n
+        \tProduto: a água mais gaseificada naturalmente do mundo.\n
+        \tPreço: entre R$5,00 e R$15,00 (dependendo da praça)\n
+        \tPraça:	restaurantes, mercados e boates de luxo.\n
+        \tPromoção: propagandas com Dita Von Teese, dançarina burlesca.\n\n
+    </string>
+    <string name="pesquisa_title">Pesquisa de Mercado</string>
+    <string name="pesquisa_content">Passo a Passo para realizar uma pesquisa de mercado:\n
+        1.	Definir seu público-alvo. \n
+        2.	Definir o objetivo da sua pesquisa (Ajudar o desenvolvimento de uma empresa ou negócio, satisfazer as necessidades dos clientes
+        com um produto ou serviço ideal, determinar o grau de sucesso ou fracasso que uma ideia de negócio pode ter, etc.)\n
+        3. Forma de coleta de dados:
+    </string>
+    <string name="pesquisa_primaria">(pesquisa primária o</string>
+    <string name="pesquisa_secundaria">u secundária)</string>
+    <string name="pesquisa_content2">4. Decidir o método (pesquisa qualitativa ou quantitativa – Enquetes online? Observação? Entrevistas?).</string>
+    <string name="pesquisa_quantitativa">Pesquisa Quantitativa:</string>
+    <string name="pesquisa_qualitativa">Pesquisa Qualitativa:</string>
+    <string name="pesquisa_content4">Para a elaboração da pesquisa qualitativa, pode-se ter uma maior quantidade de perguntas abertas,
+        e uma menor amostra.
+    </string>
+    <string name="pesquisa_content3">Para fazer uma boa pesquisa quantitativa é necessário fazer um questionário com perguntas objetivas,
+        curtas e claras, com a maioria das perguntas fechadas.
+    </string>
+    <string name="pesquisa_content5">5. Definição da amostra (quantidade de pessoas a serem entrevistadas).\n
+        6. Elaborar o questionário. (PASSO A PASSO NO NOSSO FUTURO SITE)\n
+        7. Aplicar a pesquisa de mercado (botar em pratica – abordar as pessoas, horário e data propício, etc.)\n\n
+        <b>Perguntas fechadas:</b> São perguntas de múltipla escolha. Essas questões facilitam a análise das respostas e é crucial nas
+        pesquisas quantitativas.\n
+        <b>Perguntas abertas:</b> São perguntas em que não há alternativas, fazendo com que o entrevistado responda da forma que desejar.
+        Essas questões dão uma visão mais completa e profunda sobre o tema pesquisado.\n\n
+    </string>
+    <string name="content_Anatab">Aqui estão os resultados de sua empresa: em verde, os saldos positivos - bons - e em vermelho, os resultados negativos- ruins!</string>
+    <string name="log_info">
+        <a href="https://www.voitto.com.br/blog/artigo/cadeia-de-suprimentos">Cadeira de Suprimentos</a>\n\n
+        <a href="https://www.logisticadescomplicada.com/gestao-previsao-demanda/">Gestão e Previsão da Demanda</a>\n\n
+        <a href="https://www.logisticadescomplicada.com/o-que-e-gestao-de-estoques/">O que é Gestão de Estoques</a>\n\n
+        <a href="https://www.vgresiduos.com.br/blog/tipos-de-logistica-reversa-no-brasil/">Tipos de Logistica Reversa</a>\n\n
+        <a href="https://books.google.com.br/books?id=jNKsCQAAQBAJ&amp;hl=pt-BR">Logística e Gerenciamento da Cadeia de Distribuição </a>\n\n
+        <a href="https://books.google.com.br/books?id=cli2AwAAQBAJ&amp;hl=pt-BR">Gestão Logística da Cadeia de Suprimentos </a>
+    </string>
+    <string name="microempresa_title">Microempresa</string>
+    <string name="microempresa_content">
+        <b>O que é?</b>\n
+        A Microempresa é um amplo ramo de empresas de diferentes tipos societários que devem estar devidamente registrados nos órgãos
+        competentes e tendo que ter uma receita bruta anual igual ou superior a R$ 360.000,00. Podendo variar a quantidades de funcionário
+        a se contratar, para indústria pode-se até 19 e para comércio e serviços até 9 funcionários.\n\n
+        <b>Definições:</b>\n
+        \t• Empresário Individual: Único dono sem sócios, é o tipo societário em que a pessoa física se coloca como titular da empresa e
+        responde de forma ilimitada pelos débitos do negócio, de maneira que os patrimônios de empresa e empresário se misturam.\n
+        \t• Sociedade individual de responsabilidade limitada: Também chamada de EIRELI, tem como princípio básico um único sócio, sendo o
+        mesmo empresário que irá o negócio e ser o único dono. A Eireli responde somente sobre o valor do capital social da Empresa. Ou
+        seja, de forma limitada o que confere uma autonomia patrimonial da Pessoa Física e da Pessoa Jurídica.\n
+        \t• Sociedade limitada - LTDA:  é a empresa formada por dois ou mais sócios que atuam de forma limitada ao Capital Social da
+        empresa. Tendo a divisão das responsabilidades em quotas (porcentagem) a partir de quanto cada um investiu.\n
+        \t• Sociedade Anônima – AS: Assim como a sociedade limitada é constituída por dois ou mais sócios, entretanto tem a divisão por
+        ações e não quotas, o que na hora de se trocar o sócio acaba sendo mais fácil e ágil.\n
+        \t• Sociedade simples: São empresas com a finalidade da prestação de serviços decorrentes de atividade intelectual e o cooperativa,
+        sendo alguns exemplos os consultórios médicos, de advocacia e similares.\n\n
+    </string>
+    <string name="registro_title">Como se Registrar?</string>
+    <string name="registro_content">
+        <b>Abertura:</b>\n
+        Para uma microempresa exercer atividade é preciso, entre outras providências, possuir registro na prefeitura ou na administração
+        regional da cidade onde ela funcionará, no estado, na Receita Federal e na Previdência Social. Dependendo da atividade, pode ser
+        necessário também o registro na Entidade de Classe, na Secretaria de Meio-Ambiente e outros órgãos de fiscalização.\n
+        <b>O contador é excencial no processo:</b>\n
+        A figura do contador não só é importante nesse processo: é fundamental! É ele - ou ela - quem irá orientá-lo ao longo de todo os
+        passos da abertura da empresa. Além disso, a inscrição estadual da empresa só pode ser feita por meio de um contador. Então, ele(a)
+        precisa ser consultado e contratado desde o início.\n
+        \t<b>Gastos</b>\n
+        \t\tO custo médio para a abertura de uma empresa varia de estado para estado. Assim, o gasto pode variar entre R$ 30,00 a R$ 200,00.
+        Após abrir a empresa, os custos iniciais são: aluguel, gastos com água e energia, telefone, honorários do contador, impostos e os
+        custos com funcionário - se houver contratação de imediato.\n
+        <b>Processo:</b>\n
+        <b>Para os sócios:</b>\n
+        \t• 1 cópia simples do comprovante de residência de cada um;\n
+        \t• 2 cópias autenticadas do RG e CPF de cada;\n
+        \t• Cópia do certidão de casamento, caso seja casado;\n
+        \t• 1 cópia da folha espelho do IRPF, caso tenha comprovado no ano vigente.\n
+        <b>Para a empresa:</b>\n
+        \t• 2 cópias simples do IPTU do Imóvel;\n
+        \t• 2 cópias do Contrato de Locação ou Compra e Venda.\n
+        <b>Junta Comercial</b>\n
+        \tO primeiro procedimento para abrir empresa em São Paulo é reunir a documentação e fazer o registro da empresa na Junta Comercial do
+        Estado de São Paulo (JUCESP). Você deverá apresentar uma série de documentos e formulários, e para a região de São Paulo, são eles:\n
+        \t• 3 vias (no caso de empresário, 4 vias) Contrato Social ou Requerimento de Empresário Individual ou Estatuto;\n
+        \t• 1 via do FNC (Ficha de Cadastro Nacional) modelo 1 e 2;\n
+        \t• 1 via do Requerimento Padrão (Capa da Junta Comercial)\n
+        \t• Documentos requisitados acima;\n
+        \t• Pagamento de taxas por meio de Guia de Recolhimento (JC) e DARF (CNE).\n
+        Assim que aprovado, você receberá o NIRE (Número de Identificação do Registro de Empresa), contendo o número fixado no ato
+        constitutivo, feito pela Junta Comercial ou Cartório.\n\n
+        <b>CNPJ</b>\n
+        Já com o NIRE em mãos, é necessário seguir para o registro da empresa como contribuinte. Ou seja, obter o número do seu CNPJ.\n
+        Todo esse processo é feito na Receita Federal, pela internet ou presencialmente. Se preferível de maneira física, é necessário
+        apresentar alguns documentos, que podem ser entregues no ato ou por Sedex para a Secretaria da Receita Federal.\n\n
+        <b>Inscrição Estadual</b>\n
+        Empresas que atuam com a produção de bens e/ou venda de mercadorias precisam da Inscrição Estadual, registro feito na Receita Estadual ou Secretaria Estadual da Fazenda. Este número serve para o recolhimento do ICMS (Imposto sobre Circulação de Mercadorias e Serviços).
+        Esse documento é exigido para empresas dos setores de:\n
+        \t• Comércio\n
+        \t• Indústria\n
+        \t• Serviços de transporte intermunicipal e interestadual\n
+        \t• Energia\n
+        \t• Comunicação\n
+        A solicitação dessa inscrição deve ser feita pela internet por um contador devidamente pré-autorizado (com senha de acesso).\n\n
+        <b>Inscrição Municipal</b>\n
+        Já a Inscrição Municipal é o registro feito junto a Prefeitura Municipal, que serve como uma espécie de permissão de funcionamento.
+        Ela é exigida para empresas que prestam serviços, e tem relação direta com o recolhimento do ISS (Imposto Sobre Serviços).\n\n
+        <b>Alvará de Funcionamento</b>\n
+        Todo estabelecimento de prestação de serviços, comércios ou industrias necessita de uma licença prévia do município para poder
+        atuar. O Alvará de Funcionamento é um documento que autoriza a empresa de exercer suas atividades, e ele deve ser solicitado na
+        Prefeitura ou outro órgão governamental municipal.\n
+        O empreendedor precisa se atentar a esse documento antes de qualquer locação ou compra de um imóvel para seu novo negócio, logo
+        que é o Alvará quem alega o direito de exercer certas atividades em determinados locais.\n
+        Após a concessão do Alvará de Funcionamento, a empresa já está apta para iniciar suas operações e seguir com os outros
+        procedimentos específicos, como Cadastro na Previdência Social, Alvará do Corpo de Bombeiros, Alvará da Vigilância Sanitária,
+        CADAN, INPI, entre outros.\n\n
+    </string>
+    <string name="tributos_title">Tributos a Cobrar</string>
+    <string name="tributos_content">
+        <b>Tributos</b>\n
+        A microempresa estará enquadrada no Simples Nacional, que é uma forma simplificada e englobada de recolhimento de tributos e
+        contribuições, tendo como base de apuração a receita bruta. A alíquota vai variar de 4% até 17,42%.\n
+        É importante você saber também que uma ME de serviço, comércio e indústria pagam impostos  diferentes. A de serviço paga o ISS;
+        a de comércio, o ICMS; e a indústria o IPI.\n\n
+    </string>
+    <string name="direitos_title">Direitos</string>
+    <string name="direitos_content">
+        <b>Sabe quais são direitos?</b>\n
+        Direitos previdenciários, como aposentadoria, auxílio doença e maternidade. Também já se torna possível adquirir descontos e
+        preços acessíveis na compra de materiais. Outro benefício é a possibilidade de solicitar o pedido de abertura de contas bancárias
+        para obter linhas de créditos e empréstimos, além de conseguir adquirir ainda maquininhas de cartões  e contratar funcionários.
+        Além de emitir notas fiscais de venda e prestação de serviços. É só a partir da formalização que o empreendedor conquista, ainda,
+        o direito de fazer negócios com o poder público e, por consequência, só para citar um exemplo, participar de licitações.\n\n
+    </string>
+    <string-array name="simplechoice">
+        <item>Sim</item>
+        <item>Não</item>
+    </string-array>
+
+    <string-array name="segmchoice">
+        <item>Comércio</item>
+        <item>Serviço</item>
+        <item>Serviço de vigilância, limpeza, obra ou advocácia</item>
+        <item>Indústria</item>
+        <item>Comércio e Serviço</item>
+    </string-array>
+
+    <string-array name="paychoice">
+        <item>Aluguel</item>
+        <item>Conta Telefônica</item>
+        <item>Conta de Luz</item>
+        <item>Conta de Água</item>
+        <item>Matéria Prima</item>
+        <item>Material Escritório</item>
+        <item>Despesa Financeira(Empréstimo)</item>
+        <item>Equipamentos/Máquinas</item>
+        <item>Comissão de Venda</item>
+        <item>Taxas e Impostos</item>
+    </string-array>
+
+    <string-array name="gainchoice">
+        <item>Investimento</item>
+        <item>Dinheiro do Banco</item>
+        <item>Empréstimo Recebido</item>
+    </string-array>
+</resources>

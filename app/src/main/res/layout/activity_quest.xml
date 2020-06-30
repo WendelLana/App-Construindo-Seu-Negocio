@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E84C4C">
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Bem-vindo (a) usuário!"
+        android:textAlignment="center"
+        android:textColor="#1E1E24"
+        android:textSize="22sp"
+        android:layout_gravity="center"
+        android:fontFamily="casual" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="Responda algumas questões para o melhor desempenho do app! :)"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:fontFamily="casual"/>
+
+    <TextView
+        android:id="@+id/lbNomeQuest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Nome Fantasia"
+        android:textSize="18sp"
+        android:textColor="#fff" />
+
+    <EditText
+        android:id="@+id/edNomeQuest"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:background="#fff"
+        android:inputType="text"/>
+
+    <TextView
+        android:id="@+id/lbEndQuest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:text="Endereço/Sede"
+        android:textSize="18sp"
+        android:textColor="#fff" />
+
+    <EditText
+        android:id="@+id/edEndQuest"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:background="#fff"
+        android:inputType="text"/>
+
+    <TextView
+        android:id="@+id/lbSegm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Segmento Empresarial"
+        android:textSize="18sp"
+        android:textColor="#fff"/>
+
+    <Spinner
+        android:id="@+id/cbSegm"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="#fff"
+        android:choiceMode="singleChoice"/>
+
+    <TextView
+        android:id="@+id/lbLeg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:text="Seu negócio é legalizado?"
+        android:textColor="#fff" />
+
+    <Spinner
+        android:id="@+id/cbLeg"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:background="#fff"
+        android:choiceMode="singleChoice"/>
+
+    <TextView
+        android:id="@+id/lbCnpjQuest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:text="CNPJ (somente números)"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:visibility="gone"/>
+
+    <EditText
+        android:id="@+id/edCnpjQuest"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:background="#fff"
+        android:inputType="number"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/lbFunc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Quantos funcionários sua empresa possuí?"
+        android:textSize="18sp"
+        android:textColor="#fff" />
+
+    <EditText
+        android:id="@+id/edFunc"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:background="#fff"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/btConcluir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="15dp"
+        android:layout_gravity="center"
+        android:text="Concluir"
+        android:background="@drawable/round_bg"/>
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

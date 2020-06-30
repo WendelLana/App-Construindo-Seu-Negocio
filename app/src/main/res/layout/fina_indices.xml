@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#Ccd6dd"
+    tools:context=".FinaIndice">
+
+    <TextView
+        android:id="@+id/lbLucraIndic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="Lucratividade"
+        android:textColor="#1E1E24"
+        android:textSize="18sp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginEnd="25dp"/>
+
+    <Button
+        android:id="@+id/btLucra"
+        android:layout_width="wrap_content"
+        android:layout_height="20sp"
+        android:text="O que é?"
+        android:textColor="#E84C4C"
+        android:background="@android:color/transparent"
+        android:layout_alignBottom="@+id/lbLucraIndic"
+        android:layout_toRightOf="@+id/lbLucraIndic"
+        android:layout_toEndOf="@+id/lbLucraIndic"
+        android:onClick="dialLucro"/>
+
+    <TextView
+        android:id="@+id/txtLucra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lbLucraIndic"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginEnd="35dp"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/lbRentabIndic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="Rentabilidade"
+        android:textColor="#1E1E24"
+        android:textSize="18sp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_below="@+id/txtLucra"/>
+
+    <Button
+        android:id="@+id/btRentab"
+        android:layout_width="wrap_content"
+        android:layout_height="20sp"
+        android:text="O que é?"
+        android:textColor="#E84C4C"
+        android:background="@android:color/transparent"
+        android:layout_alignBottom="@+id/lbRentabIndic"
+        android:layout_toRightOf="@+id/lbRentabIndic"
+        android:layout_toEndOf="@+id/lbRentabIndic"
+        android:onClick="dialRentab"/>
+
+    <TextView
+        android:id="@+id/lbMargemOpera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Margem Operacional"
+        android:textColor="#E84C4C"
+        android:layout_marginTop="5dp"
+        android:textSize="16sp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_below="@id/lbRentabIndic"/>
+
+    <TextView
+        android:id="@+id/txtMagemOpera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lbMargemOpera"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginEnd="35dp"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/lbMargemLiq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Margem Líquida"
+        android:textColor="#E84C4C"
+        android:layout_marginTop="5dp"
+        android:textSize="16sp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_below="@id/txtMagemOpera"/>
+
+    <TextView
+        android:id="@+id/txtMargemLiq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lbMargemLiq"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginEnd="35dp"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/lbPRIIndic"
+        android:layout_width="80pt"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Prazo de Retorno do Investimento (PRI)"
+        android:textColor="#1E1E24"
+        android:textSize="18sp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_below="@+id/txtMargemLiq"/>
+
+    <Button
+        android:id="@+id/btPRI"
+        android:layout_width="wrap_content"
+        android:layout_height="20sp"
+        android:text="O que é?"
+        android:textColor="#E84C4C"
+        android:background="@android:color/transparent"
+        android:layout_alignBottom="@+id/lbPRIIndic"
+        android:layout_toRightOf="@+id/lbPRIIndic"
+        android:layout_toEndOf="@+id/lbPRIIndic"
+        android:onClick="dialPRI"/>
+
+    <TextView
+        android:id="@+id/txtPRI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lbPRIIndic"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginEnd="35dp"
+        android:textSize="16sp"/>
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="200dp">
+
+        <Button
+            android:id="@+id/divider"
+            android:layout_width="35dp"
+            android:layout_height="fill_parent"
+            android:background="#1E1E24"
+            android:layout_marginLeft="35dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="20dp"/>
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyLista"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </ScrollView>
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/progBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/btNovoCli"
+        android:layout_width="140dp"
+        android:layout_height="75dp"
+        android:background="@android:color/transparent"
+        android:drawableLeft="@drawable/add"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:layout_centerHorizontal="true"
+        android:text="Novo Cliente"
+        android:scaleType="center"
+        android:textColor="#1E1E24"/>
+
+</RelativeLayout>

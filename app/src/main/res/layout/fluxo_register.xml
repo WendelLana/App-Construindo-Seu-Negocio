@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/holo_red_light">
+
+    <TextView
+        android:id="@+id/fluxoTextDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data:"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/agenda"
+            android:layout_margin="10dp"
+            android:id="@+id/fluxoDateButton"
+            android:contentDescription="Definir data" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="01/01/2000"
+            android:layout_gravity="center"
+            android:textSize="30sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:id="@+id/fluxoDate"
+            android:gravity="center"
+            android:layout_marginRight="50dp"
+            android:layout_marginEnd="50dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/fluxoTextTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Horário:"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/hora"
+            android:layout_margin="10dp"
+            android:id="@+id/fluxoTimeButton"
+            android:contentDescription="Definir hora" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="13:00"
+            android:layout_gravity="center"
+            android:textSize="30sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:id="@+id/fluxoTime"
+            android:gravity="center"
+            android:layout_marginRight="50dp"
+            android:layout_marginEnd="50dp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome:"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"/>
+
+    <Spinner
+        android:id="@+id/fluxoName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valor Total:"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/fluxoValor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:layout_margin="15dp"/>
+    <Button
+        android:id="@+id/fluxoAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adicionar"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:background="@android:color/white" />
+
+</LinearLayout>

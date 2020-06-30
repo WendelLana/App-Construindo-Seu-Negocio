@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/cliInfo"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_alignBottom="@id/cliData"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:background="@drawable/draw"/>
+
+    <TextView
+        android:id="@+id/cliNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/cliInfo"
+        android:layout_toEndOf="@+id/cliInfo"
+        android:text="Cliente"
+        android:textSize="22sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:textColor="#1E1E24"/>
+
+    <TextView
+        android:id="@+id/cliTel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cliNome"
+        android:layout_alignLeft="@id/cliNome"
+        android:layout_alignStart="@id/cliNome"
+        android:text="Telefone"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/cliData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="Data última compra"
+        android:textSize="18sp"
+        android:layout_toRightOf="@id/cliTel"
+        android:layout_alignBottom="@id/cliTel"
+        android:layout_toEndOf="@id/cliTel"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:maxLength="35"/>
+
+</RelativeLayout>

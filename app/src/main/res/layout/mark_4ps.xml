@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7ebe8"
+    tools:context=".Mark4PS">
+
+    <TextView
+        android:id="@+id/os4ps_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/os4ps_title"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="#E84C4C"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:text="Info"
+        android:textSize="14sp"
+        android:layout_alignBottom="@+id/os4ps_title"
+        android:layout_toRightOf="@+id/os4ps_title"
+        android:layout_toEndOf="@+id/os4ps_title"
+        android:textColor="#4072C7"
+        android:onClick="dial4Ps"/>
+
+    <ScrollView
+        android:layout_below="@+id/os4ps_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity ="center"
+        android:fillViewport="true"
+        android:layout_marginTop="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp">
+
+            <TextView
+                android:id="@+id/os4ps_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#1E1E24"
+                android:textSize="16sp"
+                android:text="@string/os4ps_text"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

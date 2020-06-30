@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7EBE8">
+
+    <TextView
+        android:id="@+id/contrat_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Técnicas Organizacionais"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="#E84C4C"
+        android:layout_marginTop="10dp"/>
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tecn_text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/huma_ata_text"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginEnd="20dp"/>
+
+            <TextView
+                android:id="@+id/tecn_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tecn_text1"
+                android:text="Procuração é um documento que possibilita a uma pessoa passar a responsabilidade de tratar de negócios para outra pessoa de sua confiança, é importante que para validar este documento deve se regitrar firma como garantia de autenticidade.
+\nComo deve ser feito:"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:layout_alignRight="@+id/tecn_text1"
+                android:layout_alignEnd="@+id/tecn_text1"
+                android:layout_alignLeft="@+id/tecn_text1"
+                android:layout_alignStart="@+id/tecn_text1"/>
+
+            <TextView
+                android:id="@+id/tecn_text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tecn_text2"
+                android:layout_centerHorizontal="true"
+                android:text="Procuração"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/tecn_text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tecn_text3"
+                android:text="@string/huma_procuracao_text"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:layout_alignLeft="@+id/tecn_text1"
+                android:layout_alignStart="@+id/tecn_text1"
+                android:layout_alignRight="@+id/tecn_text1"
+                android:layout_alignEnd="@+id/tecn_text1"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:id="@+id/tecn_text5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tecn_text4"
+                android:text="São Paulo,06, junho de 2019
+\n(nome e firma reconhecida)"
+                android:layout_centerHorizontal="true"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:layout_alignLeft="@+id/tecn_text1"
+                android:layout_alignStart="@+id/tecn_text1"
+                android:layout_alignRight="@+id/tecn_text1"
+                android:layout_alignEnd="@+id/tecn_text1"/>
+
+            <TextView
+                android:id="@+id/tecn_text6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tecn_text5"
+                android:text="@string/huma_oficio_text"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:layout_alignLeft="@+id/tecn_text1"
+                android:layout_alignStart="@+id/tecn_text1"
+                android:layout_alignRight="@+id/tecn_text1"
+                android:layout_alignEnd="@+id/tecn_text1"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"/>
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

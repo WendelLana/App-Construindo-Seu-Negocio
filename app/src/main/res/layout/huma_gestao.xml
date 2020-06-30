@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7EBE8">
+
+    <TextView
+        android:id="@+id/humaGestao_title"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="O que é gestão de pessoas?"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textColor="#E84C4C"
+        android:layout_marginTop="35dp"
+        android:justificationMode="inter_word"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/humaGestao_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="25dp">
+    <TextView
+        android:id="@+id/humaGestao_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="O conceito de gestão de pessoas ou administração de recursos humanos é uma associaçao de habilidades e métodos, políticas, técnicas e práticas definidas, com o objetivo de administrar os comportamentos internos e potencializar o capital humano nas organizações.\n \nA Gestão de Pessoas ocorre através da participação, capacitação, envolvimento e desenvolvimento de funcionários de uma empresa, e a área tem a função de humanizar as empresas. Muitas vezes, a gestão de pessoas é confundida com o setor de Recursos Humanos. Porém RH é a ténica e os mecanismos que o profissional utiliza e gestão de pessoas tem como objetivo a valorização de profissionais."
+        android:textColor="#1E1E24"
+        android:textSize="16sp"/>
+    </ScrollView>
+</RelativeLayout>

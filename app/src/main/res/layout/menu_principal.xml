@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <TextView
+        android:id="@+id/textWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seu nome"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tour"
+        android:justificationMode="inter_word"
+        android:textColor="#1e1e24"/>
+
+    <Button
+        android:id="@+id/tour"
+        android:layout_width="80dp"
+        android:layout_height="50sp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight ="true"
+        android:drawableRight="@drawable/right"
+        android:drawableEnd="@drawable/right"
+        android:layout_marginRight="10sp"
+        android:layout_marginEnd="10sp"
+        android:background="@android:color/transparent"
+        android:textSize="15sp"
+        android:text="TOUR"/>
+
+    <Button
+        android:id="@+id/btHuma"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="10sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="170dp"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/recursos"
+        android:text="Recursos Humanos"
+        android:scaleType="center"/>
+
+    <Button
+        android:id="@+id/btGer"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:text="Gerência"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:drawableTop="@drawable/gerencia"
+        android:layout_alignBottom="@+id/btHuma"
+        android:scaleType="center"/>
+
+    <Button
+        android:id="@+id/btMark"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:background="@android:color/transparent"
+        android:text="Marketing"
+        android:drawableTop="@drawable/marketing"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@id/btGer"
+        android:layout_marginRight="10sp"
+        android:layout_marginEnd="10sp"
+        android:scaleType="center"/>
+
+    <Button
+        android:id="@+id/btJury"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/juridico"
+        android:text="Jurídico"
+        android:layout_marginTop="35dp"
+        android:layout_alignEnd="@+id/btHuma"
+        android:layout_alignRight="@+id/btHuma"
+        android:layout_below="@+id/btHuma"
+        android:scaleType="center"/>
+
+    <Button
+        android:id="@+id/btFin"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:drawableTop="@drawable/financeiro"
+        android:text="Financeiro"
+        android:layout_alignRight="@+id/btMark"
+        android:layout_alignEnd="@+id/btMark"
+        android:layout_marginTop="35dp"
+        android:layout_below="@id/btMark"
+        android:scaleType="center"
+        android:background="@android:color/transparent"/>
+
+    <Button
+        android:id="@+id/btLog"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/logistica"
+        android:text="Logística"
+        android:layout_below="@id/btGer"
+        android:layout_alignEnd="@id/btGer"
+        android:layout_alignRight="@id/btGer"
+        android:layout_marginTop="35dp"
+        android:scaleType="center"/>
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="35dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginRight="26dp"
+        android:text="@string/logout"
+        android:background="@drawable/round_bg"/>
+
+</RelativeLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7ebe8">
+
+    <Button
+        android:id="@+id/humaFunc"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:drawableTop="@drawable/funcionarios"
+        android:background="@android:color/transparent"
+        android:layout_marginLeft="45dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="70dp"
+        android:text="Funcionários"
+        android:scaleType="center"/>
+
+    <Button
+        android:id="@+id/humaFolha"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:drawableTop="@drawable/folha_pag"
+        android:background="@android:color/transparent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/humaFunc"
+        android:layout_marginRight="45sp"
+        android:layout_marginEnd="45sp"
+        android:text="Folha de \n Pagamento"
+        android:scaleType="center"/>
+
+    <Button
+        android:id="@+id/gestaoPessoa"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_below="@id/humaFolha"
+        android:layout_marginTop="60sp"
+        android:background="#e84c4c"
+        android:text="O que é gestão de Pessoas?"
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/contrataFunc"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/gestaoPessoa"
+        android:layout_marginTop="5sp"
+        android:background="#e84c4c"
+        android:text="Recrutamento e Seleção"
+        android:textColor="#1e1e24"/>
+
+    <Button
+        android:id="@+id/tecOrganiza"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_below="@id/contrataFunc"
+        android:layout_marginTop="5sp"
+        android:background="#e84c4c"
+        android:text="Técnicas organizacionais"
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/bemEmpresarial"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tecOrganiza"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="5sp"
+        android:background="#e84c4c"
+        android:text="O bem estar empresarial"
+        android:textColor="#1e1e24"/>
+
+    <Button
+        android:id="@+id/layEmpresarial"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/bemEmpresarial"
+        android:layout_marginTop="5sp"
+        android:background="#e84c4c"
+        android:text="Layout Empresarial"
+        android:textColor="#fff"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7EBE8">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Funcionário:"
+                android:textSize="18sp"
+                android:textColor="#1E1E24"/>
+
+            <Spinner
+                android:id="@+id/folhaFuncList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nome Empresa:"
+                android:textSize="18sp"
+                android:textColor="#1E1E24"/>
+
+            <EditText
+                android:id="@+id/folhaNomeEmpre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Endereço:"
+                android:textSize="18sp"
+                android:textColor="#1E1E24"/>
+
+            <EditText
+                android:id="@+id/folhaEnde"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CNPJ (sem pontuação):"
+                android:textSize="18sp"
+                android:textColor="#1E1E24"/>
+
+            <EditText
+                android:id="@+id/folhaCnpj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Números de descansos remunerados:"
+                android:textSize="18sp"
+                android:textColor="#1E1E24"/>
+
+            <EditText
+                android:id="@+id/folhaDsr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dias úteis/trabalhados:"
+                android:textSize="18sp"
+                android:textColor="#1E1E24"/>
+
+            <EditText
+                android:id="@+id/folhaDiasUteis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"/>
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Carga horária diária:"
+            android:textSize="18sp"
+            android:textColor="#1E1E24"/>
+
+            <EditText
+                android:id="@+id/folhaCargHora"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Horas extras:"
+                android:textSize="18sp"
+                android:textColor="#1E1E24"/>
+
+            <EditText
+                android:id="@+id/folhaHoraExt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Horas extras noturnas:"
+                android:textSize="18sp"
+                android:textColor="#1E1E24"/>
+
+            <EditText
+                android:id="@+id/folhaHoraExtNot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Horas feriados/domingo:"
+                android:textSize="18sp"
+                android:textColor="#1E1E24"/>
+
+            <EditText
+                android:id="@+id/folhaHoraFeri"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/folhaSalFam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Salário família:"
+                    android:textSize="18sp"
+                    android:textColor="#1E1E24"/>
+
+                <CheckBox
+                    android:id="@+id/folhaCheckSalFam"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sim"
+                    android:layout_toRightOf="@id/folhaSalFam"
+                    android:layout_toEndOf="@id/folhaSalFam" />
+
+                <TextView
+                    android:id="@+id/folhaAdcNot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Adicional noturno:"
+                    android:textSize="18sp"
+                    android:textColor="#1E1E24"
+                    android:layout_below="@id/folhaSalFam"/>
+
+                <CheckBox
+                    android:id="@+id/folhaCheckAdcNot"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sim"
+                    android:layout_toRightOf="@id/folhaAdcNot"
+                    android:layout_toEndOf="@id/folhaAdcNot"
+                    android:layout_alignBottom="@id/folhaAdcNot"/>
+
+                <TextView
+                    android:id="@+id/folhaValTran"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vale transporte:"
+                    android:textSize="18sp"
+                    android:textColor="#1E1E24"
+                    android:layout_below="@id/folhaAdcNot"/>
+
+                <CheckBox
+                    android:id="@+id/folhaCheckValTran"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sim"
+                    android:layout_toRightOf="@id/folhaValTran"
+                    android:layout_toEndOf="@id/folhaValTran"
+                    android:layout_alignBottom="@id/folhaValTran"/>
+
+                <TextView
+                    android:id="@+id/folhaValRef"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vale refeição:"
+                    android:textSize="18sp"
+                    android:textColor="#1E1E24"
+                    android:layout_below="@id/folhaCheckValTran"/>
+
+                <CheckBox
+                    android:id="@+id/folhaCheckValRef"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sim"
+                    android:layout_toRightOf="@id/folhaValRef"
+                    android:layout_toEndOf="@id/folhaValRef"
+                    android:layout_alignBottom="@id/folhaValRef"/>
+
+                <TextView
+                    android:id="@+id/folhaValAlim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vale alimentação:"
+                    android:textSize="18sp"
+                    android:textColor="#1E1E24"
+                    android:layout_below="@id/folhaCheckValRef"/>
+
+                <CheckBox
+                    android:id="@+id/folhaCheckValAlim"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sim"
+                    android:layout_toRightOf="@id/folhaValAlim"
+                    android:layout_toEndOf="@id/folhaValAlim"
+                    android:layout_alignBottom="@id/folhaValAlim"/>
+
+                <TextView
+                    android:id="@+id/folhaAdcPeri"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Adicional Periculosidade:"
+                    android:textSize="18sp"
+                    android:textColor="#1E1E24"
+                    android:layout_below="@id/folhaCheckValAlim"/>
+
+                <CheckBox
+                    android:id="@+id/folhaCheckAdcPeri"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sim"
+                    android:layout_toRightOf="@id/folhaAdcPeri"
+                    android:layout_toEndOf="@id/folhaAdcPeri"
+                    android:layout_alignBottom="@id/folhaAdcPeri"/>
+
+                <TextView
+                    android:id="@+id/folhaAdcInsal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Adicional Insalubridade:"
+                    android:textSize="18sp"
+                    android:textColor="#1E1E24"
+                    android:layout_below="@id/folhaAdcPeri"/>
+
+                <RadioGroup
+                    android:id="@+id/folhaAdcInsalub"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/folhaAdcInsal">
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/folhaAdcInsalub0"
+                        android:text="0%" />
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/folhaAdcInsalub10"
+                        android:text="10%" />
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/folhaAdcInsalub20"
+                        android:text="20%"/>
+
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/folhaAdcInsalub40"
+                        android:text="40%" />
+                </RadioGroup>
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/folhaConcluir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Concluir"
+                android:textSize="20sp"
+                android:textColor="#1E1E24"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

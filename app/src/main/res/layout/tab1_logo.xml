@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".LogoActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/clean"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/new_file"
+        android:onClick="clearCanvas" />
+
+    <Button
+        android:id="@+id/draw"
+        android:layout_margin="10dp"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/draw"
+        android:onClick="drawClicked" />
+    <Button
+        android:id="@+id/eraser"
+        android:layout_margin="10dp"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/eraser"
+        android:onClick="eraserClicked"/>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/change_color"
+            android:background="@color/transparent"
+            android:onClick="changeColor"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:layout_margin="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/bucket"
+            android:onClick="changeBackground"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/increaseDot"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="+"
+            android:onClick="increaseDot"/>
+
+        <TextView
+            android:id="@+id/sizeDot"
+            android:layout_width="50dp"
+            android:layout_margin="5dp"
+            android:layout_height="50dp"
+            android:text="10"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:gravity="center_vertical|center_horizontal"/>
+
+
+        <Button
+        android:id="@+id/decreaseDot"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="-"
+        android:onClick="decreaseDot" />
+
+    <Button
+        android:id="@+id/saveLogo"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/save"
+        android:onClick="saveCanvas"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7ebe8">
+
+    <ImageView
+        android:id="@+id/markFundo"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:background="@drawable/markfundo"/>
+
+    <Button
+        android:id="@+id/markLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/docile"/>
+
+
+
+    <LinearLayout
+        android:id="@+id/mark_upButtons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/markFundo">
+
+        <Button
+            android:id="@+id/markPesqMerc"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:drawableTop="@drawable/pesquisa"
+            android:background="@android:color/transparent"
+            android:text="\nPesquisa de \nMercado"
+            android:scaleType="center"
+            android:layout_gravity="fill"/>
+
+        <Button
+            android:id="@+id/markSWOT"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
+            android:drawableTop="@drawable/swot"
+            android:background="@android:color/transparent"
+            android:text="Análise SWOT"
+            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"
+            android:scaleType="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:layout_below="@+id/mark_upButtons">
+
+    <Button
+        android:id="@+id/mark4ps"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:drawableTop="@drawable/mark4p"
+        android:background="@android:color/transparent"
+        android:layout_below="@+id/markPesqMerc"
+        android:text="Os 4 p's de \nMarketing"
+        android:scaleType="center"/>
+
+    <Button
+        android:id="@+id/markEstrat"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:drawableTop="@drawable/estrategia"
+        android:background="@android:color/transparent"
+        android:text="Estratégias \nde Marketing"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:scaleType="center"/>
+    </LinearLayout>
+
+</RelativeLayout>

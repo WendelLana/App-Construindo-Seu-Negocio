@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFF0F2">
+
+    <RelativeLayout
+        android:id="@+id/groupBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#444140"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/logRegistre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:text="Registre seus \nprodutos!"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/logCompra"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Compra"
+            android:background="#6D993A"
+            android:layout_alignRight="@+id/logRegistre"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/logRegistre"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"/>
+
+        <Button
+            android:id="@+id/logVenda"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Venda"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_alignRight="@+id/logRegistre"
+            android:layout_alignEnd="@+id/logRegistre"
+            android:layout_below="@+id/logCompra"
+            android:background="#FC4040"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"/>
+
+        <TextView
+            android:id="@+id/lbVendas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Maiores vendas:"
+            android:layout_toRightOf="@+id/logCompra"
+            android:layout_toEndOf="@+id/logCompra"
+            android:layout_marginTop="45dp"
+            android:textSize="16sp"
+            android:textColor="#6D993A"
+            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"/>
+
+        <TextView
+            android:id="@+id/logTxtVenda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lbVendas"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:layout_alignLeft="@id/lbVendas"
+            android:layout_alignStart="@id/lbVendas"
+            android:justificationMode="inter_word"/>
+
+        <TextView
+            android:id="@+id/lbCompras"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Preciso comprar:"
+            android:layout_toRightOf="@+id/logVenda"
+            android:layout_toEndOf="@+id/logVenda"
+            android:layout_below="@+id/logTxtVenda"
+            android:layout_marginTop="15dp"
+            android:textSize="16sp"
+            android:textColor="#FC4040"
+            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"/>
+
+        <TextView
+            android:id="@+id/logTxtCompra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lbCompras"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:layout_alignLeft="@id/lbCompras"
+            android:layout_alignStart="@id/lbCompras"
+            android:justificationMode="inter_word"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/log_estoque"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_below="@+id/groupBox"
+        android:layout_marginStart="45sp"
+        android:layout_marginLeft="45sp"
+        android:layout_marginTop="25dp"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/estoque"
+        android:scaleType="center"
+        android:text="Estoque" />
+
+    <Button
+        android:id="@+id/log_regprod"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:background="@android:color/transparent"
+        android:text="Registros de \nProdutos"
+        android:drawableTop="@drawable/product"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@id/log_estoque"
+        android:layout_marginRight="45sp"
+        android:layout_marginEnd="45sp"
+        android:scaleType="center"/>
+
+    <Button
+        android:id="@+id/log_cadsuprimento"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/log_regprod"
+        android:layout_marginTop="25sp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:background="#e84c4c"
+        android:text="Cadeia de Suprimentos"
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/log_gerirestoque"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/log_cadsuprimento"
+        android:layout_marginTop="5sp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:background="#e84c4c"
+        android:text="Como gerir seu estoque?"
+        android:textColor="#1e1e24"/>
+
+    <Button
+        android:id="@+id/log_logreversa"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/log_gerirestoque"
+        android:layout_marginTop="5sp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:background="#e84c4c"
+        android:text="Logística Reversa"
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/log_informa"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/log_logreversa"
+        android:layout_marginTop="5sp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:background="#e84c4c"
+        android:text="Informações Importantes"
+        android:textColor="#1e1e24"/>
+
+</RelativeLayout>

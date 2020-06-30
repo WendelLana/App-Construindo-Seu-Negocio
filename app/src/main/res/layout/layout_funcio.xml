@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/funcInfo"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_alignBottom="@id/txtCargo"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:background="@drawable/draw"/>
+
+        <TextView
+            android:id="@+id/txtNome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/funcInfo"
+            android:layout_toEndOf="@+id/funcInfo"
+            android:text="Nome"
+            android:textSize="22sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:textColor="#1E1E24"/>
+
+        <TextView
+            android:id="@+id/txtCargo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtNome"
+            android:layout_alignLeft="@id/txtNome"
+            android:layout_alignStart="@id/txtNome"
+            android:text="Função"
+            android:textSize="18sp"/>
+        <TextView
+            android:id="@+id/txtSalario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salário"
+            android:textSize="18sp"
+            android:layout_toRightOf="@id/txtCargo"
+            android:layout_alignBottom="@id/txtCargo"
+            android:layout_toEndOf="@id/txtCargo"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"/>
+
+</RelativeLayout>

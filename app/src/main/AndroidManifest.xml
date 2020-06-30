@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.redelogin">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:name=".MultiDexClass"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar.NoActionBar"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+
+        <activity
+            android:name=".FinaActivity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar.NoActionBar"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".FinaFluxo"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".FinaCustoDespesa"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".FinaIndice"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".TourActivity"
+            android:theme="@style/Theme.Intro"
+            android:screenOrientation="portrait"/>
+
+
+        <activity
+            android:name=".HumaActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".HumaGestao"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".HumaFolha"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".HumaFolPag"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".HumaContrat"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".HumaTecn"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".HumaBemEstar"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".HumaLayEmpresa"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".FuncionarioActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".FuncionarioCreate"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".GereActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".ClienteActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ClienteCreate"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".FornecedorActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".FornecedorCreate"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".MarkActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".MarkSWOT"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Mark4PS"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".MarkEstrategia"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".MarkPesquisa"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".LogoActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".JuryActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".JuryMEI"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".JuryDireitos"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".JuryTributos"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".JuryRegistro"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".LogActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".LogGestao"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".LogGerir"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".LogReversa"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".LogInfo"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ProductActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ProductCreate"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

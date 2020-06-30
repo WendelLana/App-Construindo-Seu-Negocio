@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:context=".FinaActivity"
+        android:background="#fff">
+
+        <RelativeLayout
+            android:id="@+id/groupBox"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="#F7EBE8"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:id="@+id/finaRegister"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/title_Fina"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:textColor="#000"
+                android:textAlignment="center"/>
+
+            <Button
+                android:id="@+id/finaCompra"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="@string/bt_entraFina"
+                android:background="#8BC34A"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/finaRegister"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"/>
+
+            <Button
+                android:id="@+id/finaVenda"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="@string/bt_saidaFina"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_below="@+id/finaCompra"
+                android:background="#FC4040"
+                android:layout_marginLeft="10dp"
+                android:layout_marginStart="10dp"/>
+        </RelativeLayout>
+
+        <com.jjoe64.graphview.GraphView
+            android:id="@+id/graph"
+            android:layout_width="wrap_content"
+            android:layout_height="170dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginEnd="3dp"
+            android:contentDescription="@string/desc_graphFina"
+            android:layout_toRightOf="@id/groupBox"
+            android:layout_toEndOf="@id/groupBox"/>
+
+        <Button
+            android:id="@+id/finaEstoque"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:layout_below="@+id/groupBox"
+            android:layout_marginStart="10sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="30dp"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/fluxo"
+            android:text="@string/bt_fluxoFina"
+            android:scaleType="center"/>
+
+        <Button
+            android:id="@+id/finaCaixa"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:text="@string/bt_caixaFina"
+            android:layout_centerHorizontal="true"
+            android:background="@android:color/transparent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:drawableTop="@drawable/caixa"
+            android:layout_alignBottom="@+id/finaEstoque"
+            android:scaleType="center"/>
+
+        <Button
+            android:id="@+id/finaIndice"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:background="@android:color/transparent"
+            android:text="@string/bt_indicFina"
+            android:drawableTop="@drawable/indice"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignBottom="@id/finaCaixa"
+            android:layout_marginRight="15sp"
+            android:layout_marginEnd="15sp"
+            android:scaleType="center"/>
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/finaEstoque"
+            android:layout_marginTop="20dp">
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tabs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                app:tabMode="scrollable">
+
+                <com.google.android.material.tabs.TabItem
+                    android:id="@+id/tabItem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tab_text_1"
+                    android:background="#e84c4c"/>
+
+                <com.google.android.material.tabs.TabItem
+                    android:id="@+id/tabItem2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tab_text_2"
+                    android:background="#444140"/>
+
+                <com.google.android.material.tabs.TabItem
+                    android:id="@+id/tabItem3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tab_text_3"
+                    android:background="#f7ebe8"/>
+
+            </com.google.android.material.tabs.TabLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/container"
+            android:layout_width="wrap_content"
+            android:layout_height="280dp"
+            android:layout_below="@+id/appbar"
+            android:layout_alignParentBottom="true"
+            app:tabMode="scrollable" />
+</RelativeLayout>

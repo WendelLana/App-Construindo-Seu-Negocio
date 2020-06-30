@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7EBE8">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity ="center"
+        android:fillViewport="true"
+        android:layout_marginTop="0dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/folpag_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Folha de Pagamento"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="#E84C4C"
+        android:layout_marginTop="10dp"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/folpag_emp"
+                android:text="EMPREGADOR: "
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:padding="18dip"/>
+
+            <TextView
+                android:text="RECIBO DO PAGAMENTO DE SALÁRIO"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:textSize="13sp"
+                android:gravity="center"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/folpag_end"
+                android:text="ENDEREÇO: "
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:padding="18dip"/>
+
+            <TextView
+                android:text="REFÊRENCIA DO MÊS/ANO"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:textSize="13sp"
+                android:gravity="center"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/folpag_cnpj"
+                android:text="CNPJ: "
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:padding="18dip"/>
+
+            <TextView
+                android:id="@+id/folpag_data"
+                android:text=""
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:textSize="13sp"
+                android:gravity="center"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/folpag_func"
+                android:text="FUNCIONÁRIO: "
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:padding="18dip"/>
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="*"
+        android:stretchColumns="*">
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:text="COD"
+                android:layout_weight="1"
+                android:textSize="13sp"
+                android:textColor="#000000"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:text="DESCRIÇÃO"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:textSize="13sp"
+                android:gravity="center"/>
+            <TextView
+                android:text="REFERÊNCIA"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:textSize="13sp"
+                android:gravity="center"/>
+            <TextView
+                android:text="PROVENTOS"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:textSize="13sp"
+                android:gravity="center"/>
+            <TextView
+                android:text="DESCONTOS"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:textSize="13sp"
+                android:gravity="center"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:text="1"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:layout_gravity="center"/>
+            <TextView
+                android:text="adc. de pericul."
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/folpag_refAdcPeric"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/folpag_provAdcPeric"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/folpag_descAdcPeric"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:text="2"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:layout_gravity="center"/>
+            <TextView
+                android:text="adc. de insalu."
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/folpag_refAdcInsalub"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/folpag_provAdcInsalub"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/folpag_descAdcInsalub"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:text="3"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:layout_gravity="center"/>
+            <TextView
+                android:text="horas extras"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/folpag_refextras"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/folpag_provextras"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/folpag_descextras"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:text="4"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:layout_gravity="center"/>
+            <TextView
+                android:text="horas ext. feriado"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/folpag_refextrasfer"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/folpag_provextrasfer"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/folpag_descextrasfer"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:text="5"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:layout_gravity="center"/>
+            <TextView
+                android:text="horas ext. noturna"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/folpag_refextrasnot"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/folpag_provextrasnot"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/folpag_descextrasnot"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:text="6"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:layout_gravity="center"/>
+            <TextView
+                android:text="adicional noturno"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/folpag_refnoturno"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/folpag_provnoturno"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/folpag_descnoturno"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:text="7"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:layout_gravity="center"/>
+            <TextView
+                android:text="vale transporte"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/folpag_reftransporte"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/folpag_provtransporte"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/folpag_desctransporte"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:text="8"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:layout_gravity="center"/>
+            <TextView
+                android:text="vale refeição"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/folpag_refrefeic"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/folpag_provrefeic"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/folpag_descrefeic"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:text="9"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:layout_gravity="center"/>
+            <TextView
+                android:text="vale alimentação"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/folpag_refalimenta"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/folpag_provalimenta"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/folpag_descalimenta"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:text="10"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:layout_gravity="center"/>
+            <TextView
+                android:text="salário família"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/folpag_reffam"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/folpag_provfam"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/folpag_descfam"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:text="11"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:layout_gravity="center"/>
+            <TextView
+                android:text="INSS"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/folpag_refinss"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/folpag_provinss"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/folpag_descinss"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:text="12"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:layout_gravity="center"/>
+            <TextView
+                android:text="IRPF"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/folpag_refirpf"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/folpag_provirpf"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/folpag_descirpf"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:text="total de prov."
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:text="total de desc."
+                android:textColor="#000000"/>
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/folpag_ttProv"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/folpag_ttDesc"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:text="val. líquido"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/folpag_valLiq"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp">
+
+            <TextView
+                android:text="salário"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:layout_gravity="center"/>
+            <TextView
+                android:text="INSS"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:text="FGTS"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:text="IRPF"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:text="DSR"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/folpag_salBase"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/folpag_baseINSS"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/folpag_baseFGTS"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/folpag_baseIRPF"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/folpag_DSR"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="DECLARO TER RECEBIDO A IMPORTÂNCIA LÍQUIDA DISCRIMINADA DESTE RECIBO"
+        android:textColor="#000000"
+        android:layout_gravity="center"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        android:layout_marginTop="15dp">
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:text=""
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:layout_marginRight="25dp"
+                android:layout_marginEnd="25dp" />
+
+            <TextView
+                android:text=""
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:text="DATA"
+                android:layout_weight="1"
+                android:textColor="#000000"
+                android:layout_marginRight="15dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"/>
+
+            <TextView
+                android:text="ASSINATURA DO FUNCIONÁRIO"
+                android:layout_weight="1"
+                android:textColor="#000000"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

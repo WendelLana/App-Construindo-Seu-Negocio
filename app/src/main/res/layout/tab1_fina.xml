@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#e84c4c"
+    app:tabMode="scrollable">
+
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".FinaActivity"
+    app:tabMode="scrollable">
+
+    <TextView
+        android:id="@+id/titleIMC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_IMCtab"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/contentIMC"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:text="@string/content_IMCtab"
+        android:textColor="#fff"
+        android:layout_below="@+id/titleIMC"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"/>
+    
+    <TextView
+        android:id="@+id/lbValorIMC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contentIMC"
+        android:text="Valor Líquido"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:layout_margin="25dp"/>
+
+    <TextView
+        android:id="@+id/edValorLiquido"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/lbValorIMC"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff"/>
+
+    <TextView
+        android:id="@+id/lbIndiceIMC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edValorLiquido"
+        android:text="Indíce da Margem de Contribuição"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:layout_margin="25dp"/>
+
+    <TextView
+        android:id="@+id/edIndiceIMC"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/lbIndiceIMC"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff"/>
+
+    <TextView
+        android:id="@+id/lbEquilibrioIMC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edIndiceIMC"
+        android:text="Ponto de Equilíbrio"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:layout_margin="25dp"/>
+
+    <Button
+        android:id="@+id/btEquilibrio"
+        android:layout_width="wrap_content"
+        android:layout_height="20sp"
+        android:text="O que é?"
+        android:textColor="#072B5E"
+        android:background="@android:color/transparent"
+        android:layout_alignBottom="@+id/lbEquilibrioIMC"
+        android:layout_toRightOf="@+id/lbEquilibrioIMC"
+        android:layout_toEndOf="@+id/lbEquilibrioIMC"
+        android:onClick="dialPontoEquil"/>
+
+    <TextView
+        android:id="@+id/edEquilibrioIMC"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/lbEquilibrioIMC"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff"
+        android:layout_marginBottom="100dp"/>
+
+</RelativeLayout>
+</androidx.core.widget.NestedScrollView>

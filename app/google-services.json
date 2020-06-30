@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1033919989813",
+    "firebase_url": "https://login-1554739151339.firebaseio.com",
+    "project_id": "login-1554739151339",
+    "storage_bucket": "login-1554739151339.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033919989813:android:c8a6da17b3b6a4e4",
+        "android_client_info": {
+          "package_name": "com.example.redelogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1033919989813-8k1t364dkc2952or9vqij070et7jgofa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.redelogin",
+            "certificate_hash": "70561518415820cb810de83a9044728571386333"
+          }
+        },
+        {
+          "client_id": "1033919989813-r9u04073c0veu00gdn9cdl2fo5fkig0s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRRlDUe7TELEpsw5k0Jtm6ZEZhAFlWtYE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1033919989813-r9u04073c0veu00gdn9cdl2fo5fkig0s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

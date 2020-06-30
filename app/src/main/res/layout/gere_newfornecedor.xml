@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <TextView
+        android:id="@+id/CNPJForn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:textColor="#1E1E24"/>
+
+    <TextView
+        android:id="@+id/txtCNPJForn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CNPJ (sem pontuação):"
+        android:layout_marginTop="65dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="#1E1E24"/>
+
+    <EditText
+        android:id="@+id/edCNPJForn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:inputType="number"
+        android:background="@drawable/round_bg"
+        android:textColor="#000"
+        android:maxLength="14"
+        android:paddingLeft="5dp"
+        android:paddingStart="5dp"
+        android:paddingRight="5dp"
+        android:paddingEnd="5dp"/>
+
+    <TextView
+        android:id="@+id/txtNomeForn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome do Fornecedor:"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="#1E1E24"/>
+
+    <EditText
+        android:id="@+id/edNomeForn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:inputType="text"
+        android:background="@drawable/round_bg"
+        android:textColor="#000"
+        android:paddingLeft="5dp"
+        android:paddingStart="5dp"
+        android:paddingRight="5dp"
+        android:paddingEnd="5dp"/>
+
+    <TextView
+        android:id="@+id/txtTelForn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Telefone do Fornecedor:"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="#1E1E24"/>
+
+    <EditText
+        android:id="@+id/edTelForn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:inputType="phone"
+        android:maxLength="12"
+        android:background="@drawable/round_bg"
+        android:textColor="#000"
+        android:paddingLeft="5dp"
+        android:paddingStart="5dp"
+        android:paddingRight="5dp"
+        android:paddingEnd="5dp"/>
+
+    <Button
+        android:id="@+id/saveForn"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="Salvar"
+        android:drawableLeft="@drawable/add"
+        android:drawableStart="@drawable/add"
+        android:layout_gravity="center"
+        android:scaleType="center"
+        android:textColor="#1E1E24"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/deleteForn"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="Deletar"
+        android:drawableLeft="@drawable/eraser"
+        android:drawableStart="@drawable/eraser"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:scaleType="center"
+        android:textColor="#1E1E24"
+        android:visibility="invisible"
+        android:layout_marginBottom="20dp"/>
+</LinearLayout>

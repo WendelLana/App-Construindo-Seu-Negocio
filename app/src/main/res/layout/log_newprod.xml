@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFF0F2">
+
+    <TextView
+        android:id="@+id/IDProd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+        android:textColor="#1E1E24"/>
+
+    <TextView
+        android:id="@+id/txtIdProd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Id (código estoque):"
+        android:layout_gravity="center"
+        android:layout_marginTop="65dp"
+        android:textSize="20sp"
+        android:textColor="#1E1E24"/>
+
+    <EditText
+        android:id="@+id/edIdProd"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:inputType="text"
+        android:background="@drawable/round_bg"
+        android:textColor="#000"
+        android:paddingLeft="10dp"
+        android:paddingStart="10dp"
+        android:paddingRight="10dp"
+        android:paddingEnd="10dp"/>
+
+    <TextView
+        android:id="@+id/txtNomeProd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome do Produto:"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="#1E1E24"/>
+
+    <EditText
+        android:id="@+id/edNomeProd"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:inputType="text"
+        android:background="@drawable/round_bg"
+        android:textColor="#000"
+        android:paddingLeft="10dp"
+        android:paddingStart="10dp"
+        android:paddingRight="10dp"
+        android:paddingEnd="10dp"/>
+
+    <TextView
+        android:id="@+id/txtValorProd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valor do Produto:"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="#1E1E24"/>
+
+    <EditText
+        android:id="@+id/edValorProd"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:inputType="numberDecimal"
+        android:background="@drawable/round_bg"
+        android:paddingLeft="10dp"
+        android:paddingStart="10dp"
+        android:paddingRight="10dp"
+        android:paddingEnd="10dp"/>
+
+    <TextView
+        android:id="@+id/txtQuantProd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quantidade do Produto:"
+        android:layout_marginTop="25dp"
+       android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textColor="#1E1E24"/>
+
+    <EditText
+        android:id="@+id/edQuantProd"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:inputType="number"
+        android:background="@drawable/round_bg"
+        android:paddingLeft="10dp"
+        android:paddingStart="10dp"
+        android:paddingRight="10dp"
+        android:paddingEnd="10dp"/>
+
+    <Button
+        android:id="@+id/saveProd"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="Salvar"
+        android:drawableLeft="@drawable/add"
+        android:drawableStart="@drawable/add"
+        android:layout_gravity="center"
+        android:scaleType="center"
+        android:textColor="#1E1E24"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/deleteProd"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="Deletar"
+        android:drawableLeft="@drawable/eraser"
+        android:drawableStart="@drawable/eraser"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:scaleType="center"
+        android:textColor="#1E1E24"
+        android:visibility="invisible"
+        android:layout_marginBottom="20dp"/>
+</LinearLayout>

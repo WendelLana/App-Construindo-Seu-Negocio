@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7ebe8"
+    tools:context=".MarkPesquisa">
+
+    <TextView
+        android:id="@+id/pesquisa_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pesquisa_title"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="#E84C4C"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:text="Info"
+        android:textSize="14sp"
+        android:layout_alignBottom="@+id/pesquisa_title"
+        android:layout_toRightOf="@+id/pesquisa_title"
+        android:layout_toEndOf="@+id/pesquisa_title"
+        android:textColor="#4072C7"
+        android:onClick="dialPesMerc"/>
+
+    <ScrollView
+        android:layout_below="@id/pesquisa_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity ="center"
+        android:fillViewport="true"
+        android:layout_marginTop="0dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginEnd="20dp">
+
+            <TextView
+                android:id="@+id/pesquisa_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#1E1E24"
+                android:textSize="16sp"
+                android:text="@string/pesquisa_content"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/pesquisa_primaria"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textColor="#4072C7"
+                    android:textSize="16sp"
+                    android:text="@string/pesquisa_primaria"
+                    android:onClick="dialPesPri"/>
+                <TextView
+                    android:id="@+id/pesquisa_secundaria"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textColor="#4072C7"
+                    android:textSize="16sp"
+                    android:text="@string/pesquisa_secundaria"
+                    android:onClick="dialPesSec"/>
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#1E1E24"
+                android:textSize="16sp"
+                android:text="@string/pesquisa_content2"/>
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:rowCount="2"
+                android:columnCount="2"
+                android:useDefaultMargins="true"
+                android:alignmentMode="alignBounds">
+
+                <TextView
+                    android:id="@+id/pesquisa_quantitativa"
+                    android:layout_width="71pt"
+                    android:layout_height="match_parent"
+                    android:textColor="#4072C7"
+                    android:textSize="16sp"
+                    android:text="@string/pesquisa_quantitativa"
+                    android:onClick="dialPesQuant"/>
+
+                <TextView
+                    android:id="@+id/pesquisa_qualitativa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginStart="15dp"
+                    android:textColor="#4072C7"
+                    android:textSize="16sp"
+                    android:text="@string/pesquisa_qualitativa"
+                    android:onClick="dialPesQuali"/>
+                <TextView
+                    android:id="@+id/pesquisa_quantText"
+                    android:layout_width="71pt"
+                    android:layout_height="match_parent"
+                    android:textColor="#1E1E24"
+                    android:textSize="16sp"
+                    android:text="@string/pesquisa_content3"/>
+                <TextView
+                    android:id="@+id/pesquisa_qualiText"
+                    android:layout_width="65pt"
+                    android:layout_height="match_parent"
+                    android:textColor="#1E1E24"
+                    android:textSize="16sp"
+                    android:text="@string/pesquisa_content4"/>
+            </GridLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#1E1E24"
+                android:textSize="16sp"
+                android:text="@string/pesquisa_content5"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

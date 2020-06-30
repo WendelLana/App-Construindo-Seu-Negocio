@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".FinaActivity"
+    android:background="#fff">
+
+    <RelativeLayout
+        android:id="@+id/groupBox"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="#F7EBE8"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp">
+        <Button
+            android:id="@+id/fluxoEntrada"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/bt_entraFina"
+            android:background="#8BC34A"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"/>
+
+        <Button
+            android:id="@+id/fluxoSaida"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="@string/bt_saidaFina"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_below="@+id/fluxoEntrada"
+            android:background="#FC4040"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"/>
+    </RelativeLayout>
+
+    <com.jjoe64.graphview.GraphView
+        android:id="@+id/graph"
+        android:layout_width="wrap_content"
+        android:layout_height="170dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginEnd="3dp"
+        android:contentDescription="@string/desc_graphFina"
+        android:layout_toRightOf="@id/groupBox"
+        android:layout_toEndOf="@id/groupBox"/>
+
+    <TextView
+        android:id="@+id/fluxoTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/graph"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_alignRight="@id/graph"
+        android:layout_alignEnd="@id/graph"
+        android:layout_marginRight="5dp"
+        android:layout_marginEnd="5dp"
+        android:text="Total líquido: R$0.00"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/fluxoTotal"
+        android:layout_marginBottom="15dp">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/fluxoRecyLista"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginEnd="5dp"/>
+    </ScrollView>
+    <ProgressBar
+        android:id="@+id/progBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>

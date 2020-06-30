@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ccd6dd">
+
+    <Button
+        android:id="@+id/btAdv"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:drawableTop="@drawable/advogado"
+        android:background="@android:color/transparent"
+        android:layout_marginLeft="45sp"
+        android:layout_marginStart="45sp"
+        android:layout_marginTop="70dp"
+        android:text="Fale com o\nadvogado!"
+        android:textColor="#1e1e24"
+        android:scaleType="center"/>
+
+    <Button
+        android:id="@+id/btLinks"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:drawableTop="@drawable/links"
+        android:background="@android:color/transparent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/btAdv"
+        android:layout_marginRight="45sp"
+        android:layout_marginEnd="45sp"
+        android:text="Links úteis"
+        android:scaleType="center"
+        android:textColor="#1e1e24"/>
+
+    <Button
+        android:id="@+id/juryMicroempr"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btLinks"
+        android:layout_marginTop="60sp"
+        android:background="#e84c4c"
+        android:text="O que é Microempresa?"
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/juryRegis"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/juryMicroempr"
+        android:layout_marginTop="5sp"
+        android:background="#e84c4c"
+        android:text="Como se registrar?"
+        android:textColor="#1e1e24"/>
+
+    <Button
+        android:id="@+id/juryDireit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/juryRegis"
+        android:layout_marginTop="5sp"
+        android:background="#e84c4c"
+        android:text="Direitos e Deveres"
+        android:textColor="#fff"/>
+
+    <Button
+        android:id="@+id/juryTributo"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/juryDireit"
+        android:layout_marginTop="5sp"
+        android:background="#e84c4c"
+        android:text="Tributos a cobrar"
+        android:textColor="#1e1e24"/>
+
+    <Button
+        android:id="@+id/infoAdi"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_below="@id/juryTributo"
+        android:layout_marginTop="5sp"
+        android:background="#e84c4c"
+        android:text="Informações adicionais"
+        android:textColor="#fff"/>
+
+
+</RelativeLayout>

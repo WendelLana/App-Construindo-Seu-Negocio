@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fffff2</color>
+    <color name="colorPrimaryDark">#fffff9</color>
+    <color name="colorAccent">#FFCC00</color>
+    <color name="calendarRow">@android:color/holo_green_light</color>
+
+    <color name="stroke_color">#8cf437</color>
+    <color name="transparent">#00FFFFFF</color>
+</resources>

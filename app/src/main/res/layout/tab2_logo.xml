@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/new_text"
+            android:onClick="createText"
+            android:layout_gravity="center"
+            android:background="@color/transparent"/>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/delete"
+            android:onClick="deleteText"
+            android:layout_gravity="center"
+            android:background="@color/transparent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/main_motion_text_entity_edit_panel"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+    <ImageButton
+        android:id="@+id/text_entity_font_size_decrease"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/ic_neg_1"
+        android:onClick="decreaseText"
+        android:background="@color/transparent"/>
+
+    <ImageButton
+        android:id="@+id/text_entity_font_size_increase"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/ic_plus_1"
+        android:onClick="increaseText"
+        android:background="@color/transparent"/>
+
+    <ImageButton
+        android:id="@+id/text_entity_color_change"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/ic_format_color_text"
+        android:onClick="changeTextColor"
+        android:background="@color/transparent"/>
+
+    <ImageButton
+        android:id="@+id/text_entity_font_change"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/ic_text_fields"
+        android:onClick="changeTextFont"
+        android:background="@color/transparent"/>
+
+    <ImageButton
+        android:id="@+id/text_entity_edit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:src="@drawable/ic_mode_edit"
+        android:onClick="editText"
+        android:background="@color/transparent"/>
+    </LinearLayout>
+</LinearLayout>

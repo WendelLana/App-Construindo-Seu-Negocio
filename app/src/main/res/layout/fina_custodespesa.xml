@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7EBE8"
+    tools:context=".FinaCustoDespesa">
+
+    <TextView
+        android:id="@+id/lbCustosCD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="Custos"
+        android:textColor="#1E1E24"
+        android:textSize="18sp"
+        android:layout_margin="25dp"/>
+
+    <Button
+        android:id="@+id/btCustos"
+        android:layout_width="wrap_content"
+        android:layout_height="20sp"
+        android:text="O que é?"
+        android:textColor="#E84C4C"
+        android:background="@android:color/transparent"
+        android:layout_alignBottom="@+id/lbCustosCD"
+        android:layout_toRightOf="@+id/lbCustosCD"
+        android:layout_toEndOf="@+id/lbCustosCD"
+        android:onClick="dialCustos"/>
+
+    <RelativeLayout
+        android:id="@+id/custoListaCD"
+        android:layout_width="match_parent"
+        android:layout_height="80pt"
+        android:layout_below="@+id/lbCustosCD"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/custosRecyLista"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginEnd="5dp"/>
+    </ScrollView>
+    <ProgressBar
+        android:id="@+id/custoProgBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/lbDespesasCD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="Despesas"
+        android:textColor="#1E1E24"
+        android:layout_below="@+id/custoListaCD"
+        android:textSize="18sp"
+        android:layout_margin="25dp"/>
+
+    <Button
+        android:id="@+id/btDespesas"
+        android:layout_width="wrap_content"
+        android:layout_height="20sp"
+        android:text="O que é?"
+        android:textColor="#E84C4C"
+        android:background="@android:color/transparent"
+        android:layout_alignBottom="@+id/lbDespesasCD"
+        android:layout_toRightOf="@+id/lbDespesasCD"
+        android:layout_toEndOf="@+id/lbDespesasCD"
+        android:onClick="dialDespesas"/>
+
+    <RelativeLayout
+        android:id="@+id/despesasListaCD"
+        android:layout_width="match_parent"
+        android:layout_height="80pt"
+        android:layout_below="@+id/lbDespesasCD"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/despesasRecyLista"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_marginRight="5dp" />
+        </ScrollView>
+
+        <ProgressBar
+            android:id="@+id/despesasProgBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>
