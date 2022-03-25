@@ -1,3 +1,5 @@
+Protótipo de um Sistema de Gerenciamento para pequenos negócios.
+
 Instruções para instalação do aplicativo:
   1. Baixe o arquivo instalador.apk que se encontra na pasta raiz deste repositório
   2. Procure nas configurações do celular, por "Instalar apps desconhecidos" e permita a instalação por fontes desconhecidas
